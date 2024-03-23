@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Order Form</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./style.css">  <div class="background-gradient"></div>
+
+</head>
+<body>  <div class="background-gradient"></div>
+
+    <!-- Heading for the form -->
+    <h1>Smoothie Order Form</h1>
+    <!-- Form for ordering smoothies -->
+    <form id="smoothieForm">
+        <!-- Select flavor dropdown -->
+        <label for="flavor">Select Flavor:</label>
+        <select name="flavor" id="flavor">
+            <option value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+            <option value="pineapple">Pineapple</option>
+        </select>
+        <br><br>
+        <!-- Radio buttons for selecting size -->
+        <label for="size">Select Size:</label>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label><br><br>
+        <!-- Checkboxes for selecting extra toppings -->
+        <label for="extras">Extra Toppings (Select multiple):</label><br>
+        <input type="checkbox" id="proteinPowder" name="topping" value="proteinPowder">
+        <label for="proteinPowder">Protein Powder</label>
+        <input type="checkbox" id="chiaSeeds" name="topping" value="chiaSeeds">
+        <label for="chiaSeeds">Chia Seeds</label>
+        <input type="checkbox" id="chocolate" name="topping" value="chocolate">
+        <label for="chocolate">Dark chocolate</label>
+        <input type="checkbox" id="cream" name="topping" value="cream">
+        <label for="cream">Whip chocolate</label>
+        <input type="checkbox" id="spinach" name="topping" value="spinach">
+        <label for="spinach">Spinach</label><br><br>
+        <!-- Button to submit the order -->
+        <input type="button" value="Order Smoothie" id="orderButton">
+    </form>
+
+    <!-- Container to display smoothie description -->
+    <div id="smoothieDescription">
+        <!-- Smoothie details will be displayed here -->
+    </div>
+
+    <!-- Script file for handling form submission -->
+    <script src="./script.js"></script>
+</body>
+</html>

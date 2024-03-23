@@ -1,0 +1,105 @@
+/* CSS Styles */
+
+/* General styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family for the entire page */
+    background-color: #f8f8f8; /* Background color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to the body */
+}
+
+/* Styles for the main heading */
+h1 {
+    text-align: center; /* Center align the heading */
+    font-family: fantasy; /* Change font family */
+    letter-spacing: 4px; /* Add letter spacing */
+    color: #b90000;
+    text-shadow: 1px 5px 5px black;
+}
+
+/* Styles for the form */
+form {
+    background-color: #ac0808; /* Form background color */
+    padding: 30px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    max-width: 500px; /* Set maximum width */
+    margin: 0 auto; /* Center the form horizontally */
+    transition: box-shadow 0.3s; /* Add transition for box shadow */
+    box-shadow: 10px 7px 6px rgb(0 0 0 / 60%);
+}
+
+/* Styles for labels */
+label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 10px; /* Add margin at the bottom */
+    font-weight: bold; /* Make labels bold */
+    color: #e1aa22; /* Label color */
+    font-size: 1.2em; /* Font size */
+    font-family: cursive; /* Change font family */
+    text-shadow: -2px 4px 5px black; /* Add text shadow */
+}
+
+/* Styles for submit and button inputs */
+input[type="submit"],
+input[type="button"] {
+    background-color: #e1aa22; /* Button background color */
+    color: black; /* Button text color */
+    padding: 12px 24px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Add transitions */
+    font-family: fantasy; /* Change font family */
+    text-align: center; /* Center align text */
+    margin-left: 11em; /* Add margin for positioning */
+}
+
+/* Hover styles for submit and button inputs */
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #45a049; /* Change background color on hover */
+    transform: translateY(-2px); /* Move button slightly on hover */
+}
+
+/* Hover styles for radio and checkbox inputs */
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}
+
+/* Styles for smoothie description */
+#smoothieDescription {
+    margin-top: 20px; /* Add margin at the top */
+    padding: 15px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    font-size: 22px; /* Font size */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    font-family: system-ui; /* Font family */
+    background-color: #e1aa22; /* Background color */
+    border-radius: 20px; /* Add border radius */
+    text-shadow: 1px 0px 1px #000000; /* Add text shadow */
+}
+
+/* Hover styles for smoothie description */
+#smoothieDescription:hover {
+    border-radius: 10px; /* Change border radius on hover */
+    transform: translateY(-2px); /* Move element slightly on hover */
+}
+
+
+/* CSS Styles */
+
+/* Background gradient */
+.background-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the gradient is behind other content */
+    background: linear-gradient(to bottom, #e1aa22, #ac0808); /* Gradient from top to bottom */
+}
+
+/* Rest of your CSS styles */
